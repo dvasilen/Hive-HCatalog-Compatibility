@@ -1,0 +1,1 @@
+HCatalog storage handler backwards compatibility with Hive 0.9.0-0.13.0
