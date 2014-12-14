@@ -27,6 +27,7 @@ import org.apache.hadoop.hive.ql.metadata.HiveStorageHandler;
 import org.apache.hadoop.hive.ql.plan.TableDesc;
 import org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider;
 import org.apache.hadoop.mapred.OutputFormat;
+import org.apache.hadoop.mapred.JobConf;
 
 /**
  * The abstract Class HCatStorageHandler would server as the base class for all
