@@ -114,6 +114,9 @@ public abstract class HCatStorageHandler implements HiveStorageHandler {
   @Override
   public abstract void setConf(Configuration conf);
 
+  public void configureJobConf(TableDesc tableDesc, JobConf jobConf) {
+  }
+  
   /*
   OutputFormatContainer getOutputFormatContainer(OutputFormat outputFormat) {
     return new DefaultOutputFormatContainer(outputFormat);
